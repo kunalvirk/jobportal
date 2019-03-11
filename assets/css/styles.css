@@ -1,0 +1,305 @@
+body{width:100%;color:#475056;padding:0px;margin:0px;font-family: 'Open Sans', sans-serif;font-size:14px;font-weight:400;}
+* {outline:none !important;box-sizing:border-box;}
+p{margin:0;padding:0px;font-weight:400;}
+h1, h2, h3, h4, h5, h6, ul, li, a, ol, img, figure, figcaption{margin:0px;padding:0px;}
+
+a, .submitBtn, .btn{-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;text-decoration:none;}
+a:hover, a:focus{text-decoration:none;}
+img{vertical-align:middle;}
+
+::-moz-selection {color:#fff;background:rgba(242,140,0,0.8);}
+::selection{color:#fff;background:rgba(242,140,0,0.8);}
+
+::-moz-placeholder{color:#475056;opacity:0.6;}
+::-webkit-input-placeholder{color:#475056;opacity:0.6;}
+:-ms-input-placeholder{color:#475056;opacity:0.6;}
+
+.container{max-width:1170px;margin:0 auto;padding-left:15px;padding-right:15px;position: relative;}
+.form-control{width:100%;background:#fff;border:0px;border-radius:0px;padding:5px 10px;color:#504b4b;}
+.container::after{content:"";width:100%;display:block;clear:both;}
+.cl{clear:both;}
+.fl-right{float:right;}
+.fl-left{float:left;}
+.fl-none{float:none;}
+
+
+/* === Page Title Css === */
+.pageTitle{width:100%;background:#6d6d6d;color:#fff;font-weight:400;padding:18px 0px;}
+.pageTitle h1{color:#fff;font-size:18px;font-weight:400;}
+.pageTitle h1 a {color: #fff;}
+.pageTitle ul{padding-top:2px;}
+.pageTitle ul li{float:left;list-style:none;font-size:12px;padding-right:5px;}
+.pageTitle ul li::after{content:"/";display:inline-block;padding-left:5px;}
+.pageTitle ul li:last-child::after{display:none;}
+.pageTitle ul li a{color:#fff;}
+.pageTitle ul li a:hover{color:#f28c00;}
+
+/* === Current Opening Page === */
+.mainSection{width:100%;padding:40px 0px;background:#fff;}
+.openingLeft{width:55%;float:left;}
+.openingLeft .form-group{max-width:420px;width:100%;margin-bottom:40px;}
+.openingLeft .form-group::after{content:"";width:100%;display:block;clear:both;}
+.openingLeft .form-group label{color:#504b4b;font-size:15px;width:50%;float:left;padding-right:10px;}
+.openingLeft .form-group .form-control{width:50%;float:right;background:#fff;border:0px;border-radius:0px;padding:5px 10px;color:#504b4b;}
+.openingLeft .form-group .form-control:focus{outline:none;}
+.openingLeft .expectSalaryInput{width:50%;float:right;}
+.openingLeft .expectSalaryInput .form-control{width:80px;float:left;}
+.openingLeft .expectSalaryInput .form-control:nth-child(2){float:right;}
+.btn.btn-success{cursor:pointer;border-radius:5px;background:#f89d0d;color:#fff;font-weight:600;border:0px;padding:8px 20px;}
+.openingLeft .btn.btn-success{margin-left:50%;}
+.btn:hover, .btn.btn-success:focus{background:#9c4317;}
+
+.page-title {color: #434344; font-size: 36px; text-transform: uppercase; font-weight: 400; margin-bottom: 15px;}
+.jobBox{width:100%;}
+.jobBox h2{color:#f28c00;font-size:36px;text-transform:uppercase;font-weight:400;margin-bottom:35px;}
+.jobBox h2 span{padding-left:10px;display:inline-block;color:#bfbebc;text-transform:none;font-size:25px;font-weight:300;}
+.jobBox ul{}
+.jobBox ul li{margin-bottom:25px;color:#565656;list-style:none; background-color:#f9f9f9; padding:15px 25px 25px;}
+.jobBox ul li p {clear: both; color:#393838;font-size:18px; font-weight: 300;}
+.jobBox ul li p a {color:#f89d0d; font-size:16px; font-weight: 400;}
+.jobLink {margin:20px 0 0 !important; display:inline-block;}
+.jobBox h3{font-weight:400;padding-bottom:5px; font-size:28px; color:#f89d0d;}
+.jobBox h3 a{color:#f89d0d;width:80%;display: inline-block;}
+.jobBox h3 small{color:#686868;font-size:14px;float:right;width:20%;text-align:right;padding-top:2px;font-weight:300;}
+.jobExper{margin-bottom:15px; width:auto; float: left;margin-top: 5px;}
+.jobExper span{display:inline-block;padding-right:15px;}
+.jobExper img{width:15px;vertical-align:middle;display:inline-block;margin-top:-2px;margin-right:3px;}
+.jobExper .location img{width:10px;}
+.jobBox li p a{color:#5261f9;}
+.jobBox li p a:hover{text-decoration:underline;}
+.jobBox .NextPrevjob{text-align:right;}
+.jobBox .NextPrevjob a{color:#2f41fe;}
+.jobBox .NextPrevjob a:hover{text-decoration:underline;}
+
+/* === Job Opening Right Box === */
+.openingRightBox{width:30%;float:right;}
+.openingRightBox h4{color:#f28c00;font-size:26px;text-transform:uppercase;font-weight:400;margin-bottom:20px;}
+.openingRightBox .form-group{max-width:50%;width:100%;margin-bottom:50px;}
+
+.fileDragNdrop{width:100%;background:#f9f9f9;box-shadow:0px 0px 2px rgba(0, 0, 0, 0.1);position:relative;text-align:center;padding:40px 0px;margin-bottom:40px;}
+.fileDragNdrop h5{font-weight:400;color:#6c6c6c;font-size:28px;}
+.fileDragNdrop p{width:100%;height:100%;text-align: center;color:#6c6c6c;}
+.fileDragNdrop input{position:absolute;margin:0;padding:0;width:100%;height:100%;outline:none;opacity:0;top:0px;left:0px;}
+.fileDragNdrop .btn{position:relative;z-index:66;margin-top:10px;font-size: 16px;text-transform: uppercase;;}
+
+.applyingFor {background-color: #fff; padding: 20px; margin-bottom:20px;}
+.is-affixed .applyingFor {box-shadow: 0px 8px 8px -6px #e1e1e1;}
+.applyingFor > h2 {color: #f89d0d !important; font-size: 24px !important; display:inline-block; width:60%;} 
+.applyingFor > span {padding-top: 7px;font-size: 13px;color: #8b8d8d;}
+.applyingFor .btn-success {float: right;margin: -10px 0 0 !important; text-transform:uppercase;font-size: 14px;}
+.applyNow {float: right;clear: both;margin-top: 25px;}
+.applyingFor > .jobExper {position: relative;top: 10px;color:#8b8d8d;}
+.postDetails {background-color:#fff; padding:20px; font-size: 16px;font-weight: 300;}
+.postDetails > h3 {color:#404041 !important;}
+.postDetails  p {color:#414445 !important; font-weight: 300;}
+.postDetails  p strong {font-weight: 700;}
+
+.side-nav {width: 100%; float: left; list-style: none; margin: 0; padding: 15px 25px;background-color: #fff;}
+.side-nav li {padding: 10px 0px; border-bottom: 1px solid #cccccc; font-size:16px;position: relative;margin-left: 20px;}
+.side-nav li a {width: 100%; display: inline-block; color: #404041;}
+.side-nav li:last-child {border-bottom: none;}
+.side-nav li:before {content: ''; display: inline-block; background:url('../images/arrow-bul.png') no-repeat left top; background-size:8px; width: 8px; height: 15px;position: absolute;left: -20px;top: 15px;}
+
+.sticky-post {left: 104px;width: 685px;float: left;max-width: unset;box-shadow: 0px 20px 15px -15px rgba(0,0,0,0.5);position:fixed;top:0;}
+
+/* === Job Description Page === */
+.jobDetailsLeft{width:60%;float:left;}
+.jobDetailsLeft h2{color:#f89d0d;font-size:30px !important;font-weight:300;margin-bottom:0;}
+.applyBtnBox{margin-top:15px;margin-bottom:0;}
+.jobDetailsLeft h3{color:#f28c00;font-size:28px;text-transform:uppercase;font-weight:400;margin-bottom:15px;}
+.jobDetailsLeft p{color:#475056;margin-bottom:10px;}
+.jobDetailsLeft ul{margin-bottom:25px;padding-left:30px;}
+.jobDetailsLeft li{margin-bottom:5px;}
+.jobDetailRight{width:25%;float:right;}
+.shareJob{width:100%;background:#fff;padding:20px;}
+.shareJob span{color:#333;font-weight:300;text-transform:uppercase;font-size:26px;display:inline-block;vertical-align:middle;margin-right:35px;}
+.shareJob a{display:inline-block;padding-right:10px;vertical-align:middle;}
+
+
+/* === Submit Profile Box === */
+.submitProfileSec h2{color:#f28c00;font-size:36px;font-weight:300;margin-bottom:30px;}
+.submitProfileBox{width:100%;background:#fff;padding:30px 40px;box-shadow:0px 1px 4px rgba(0, 0, 0, 0.4);}
+.submitProfileForm{width:100%;float:left;}
+.submitProfileBox h3 {margin-bottom: 40px;text-align: center;font-size: 24px;font-weight: 600;}
+.submitProfileForm .form-group{margin-bottom:20px;}
+.submitProfileForm label{color:#333;font-size:16px;font-weight:400;display:block;margin-bottom:8px;}
+.red{color:red;}
+.submitProfileForm .form-control{color:#333;font-size:16px;font-weight:400;border:1px solid #dfdfdf;padding:12px 10px;}
+.submitProfileForm .form-group p{color:#666;font-size:14px;line-height:15px; padding-left: 3px;}
+
+.applyWithLD{width:35%;float:right;background:url('../images/seprator.jpg') no-repeat left center;padding:50px 0px 50px 100px;}
+.applyWithLD .btn{background:#007bb6;padding:12px 15px;font-size:16px;}
+.applyWithLD .btn:hover,.applyWithLD .btn:focus{background:#1075a6;}
+.chooseFile{display:inline-block;}
+.chooseFile > input {font-size: 16px; margin-bottom: 5px;}
+.custom-file-upload{padding:15px 20px;background:#989898;color:#fff !important;font-weight:600;cursor:pointer;display:inline-block !important;max-width:270px;}
+.custom-file-upload:hover{background:#868686;}
+.dontHaveResume{display:inline-block;vertical-align:top;margin-left:50px;}
+.dontHaveResume>span{display:inline-block;vertical-align:middle;padding-right:30px;}
+.dontHaveResume label{display:inline-block;vertical-align:middle;margin-top:8px;}
+.custom-checkbox{cursor:pointer;}
+.custom-checkbox input {visibility:hidden;display:block;height:0;width:0;position:absolute;overflow:hidden;}
+.custom-checkbox span{height:15px;width:15px;border:1px solid #b3b3b3;display:inline-block;border-radius:3px;margin-top:2px;padding-right:10px;vertical-align: top;}
+.custom-checkbox [type=checkbox]:checked + span {background:url('../images/check.png') no-repeat left center;border-color:#508aef;}
+.addMoreDetails{margin-top:40px;margin-bottom:20px;}
+.addMoreDetails a{color:#3356fb;font-weight:400;}
+.addMoreDetails a:hover{color:#1f3dcc;}
+.tAndc label{display:inline-block;padding:0px;}
+.tAndc a{color:#3356fb;font-weight:400;}
+.tAndc a:hover{color:#1f3dcc;}
+
+
+
+footer {width:100%; float: left; margin: 0; padding:4vw 5.7vw 2vw; background-color: #5c5e5e; text-align: center; font-family: 'Open Sans', sans-serif;font-size:14px;font-weight:400; color:#fff;}
+.jobDetailRight .btn {width: 100%; font-size: 18px; margin-top: 30px; padding: 15px 30px !important;}
+
+.submitForm > input {font-size: 16px !important; padding: 15px 30px !important; margin-top: 20px; text-transform: uppercase;}
+.ajaxLoader {width: 35px; display: inline-block; position: relative; top: 10px; left: 10px;}
+.ajaxLoader > img {width:100%; height: auto; display: block;}
+.message {margin-top: 5px; font-size: 12px; display: none;}
+.required {display: block !important;}
+
+header {width:100%; float: left; margin:0; padding:0; background:#5c5e5e; position: relative;}
+.logo {width:270px; float: left; margin:0; padding: 0;}
+.logo a {width:100%; min-height: 57px; display: inline-block; background: url('../images/logo.png') no-repeat left top; background-size: 78%;}
+.top-nav {width: auto; float: right; margin:10px 0 0; padding: 0; list-style: none;}
+.top-nav li {font-size: 1.25vw; color:#fff; float: left; margin-left: 35px;}
+.top-nav li a {color: #fff; transition: all 0.2s ease-in-out;}
+.top-nav li a:hover {color: #f89d0d;}
+
+.submitForm {width:100%; display: inline-block; text-align: center;}
+.sticky {position: fixed; right: 106px; top: 0; max-width: 285px;}
+.half {width: 50%; float: left; padding: 0 20px; position:relative;}
+#submitApplication .half:nth-child(2) {margin-left: -20px;}
+.submitProfileForm label.error {font-size: 12px !important; position: relative;}
+.submitProfileForm .form-control.error {border-color: #ff0000;}
+input[type="file"].error {padding:5px; border: 1px solid #ff0000;}
+.tAndc label.error {position: absolute !important; top: 25px; left: 25px;}
+.txtBlock {padding-top: 5px;}
+
+header > .container {max-width: 90%;}
+nav {padding: 35px 0 25px; display: inline-block; width: 100%;}
+.hero-image {width: 100%; height: 50vh; background: url('../images/careers-hero.jpg') no-repeat center;}
+.footerCols {padding: 0 5.7vw; display: flex; justify-content: space-between; line-height: 30px;}
+.social {list-style: none; margin: 20px 0 0; padding: 0; transition: all 0.2s ease-in-out; opacity: 1;}
+.social:hover a {opacity: 0.4;}
+.social li {width: auto; display: inline-block; margin: 0 15px 0 0; padding: 0;}
+.social li:hover {opacity: 1;}
+.social li:last-child {margin-right: 0;}
+.social li a {font-size: 28px; color: #fff; transition: all 0.2s ease-in-out; opacity: 1;}
+.social li a:hover {opacity: 1;}
+
+.copyright {margin: 80px 0 30px;}
+.etcLinks {margin-bottom: 30px;}
+.etcLinks a {color: #f89d0d;}
+
+.submitProfileSec {padding-bottom: 70px;}
+
+/* === Mobile Css === */
+@media (max-width:1199px) {
+	.container{max-width:970px;}
+	.jobDetailRight{width:32%;}
+}
+
+@media (max-width:991px) {
+	.container{max-width:750px;}
+	.openingLeft, .openingRightBox{width:100%;}
+	.openingLeft .form-group{max-width:100%;}
+	.openingRightBox{margin-top:30px;}
+	.pageTitle ul{display:none;}
+	.jobDetailsLeft{width:100%;}
+	.jobDetailRight{margin-top:30px;width:100%;}
+	.submitProfileForm{width:100%;}
+	.applyWithLD{width:100%;border-top:1px solid #dedbdb;margin-top:30px;background:#fff;padding:0px;padding-top:30px;}	
+	.sticky-post , .sticky {position:static;}
+	.top-nav li {font-size: 20px;}
+	.footerCols {flex-direction: column;}
+	.footerCols .col {margin-bottom: 20px;}
+	.copyright {margin-top: 40px;}
+}
+
+
+@media (max-width:767px) {
+	.container{max-width:100%;}
+}
+
+@media (max-width:480px) {
+	.openingLeft .form-group{margin-bottom:15px;}
+	.openingLeft .form-group label{width:100%;display:block;padding-bottom:6px;}
+	.openingLeft .form-group .form-control{width:100%;}
+	.openingLeft .expectSalaryInput{width:100%;}
+	.expectSalaryInput select{margin-bottom:10px;}
+	.openingLeft .btn.btn-success{margin-left:0px;}
+	.openingRightBox .form-group{margin-bottom:30px;}
+	nav {text-align: center;}
+	.logo, .top-nav {float: none; display: inline-block;}
+	.logo a {background-position: center;}
+	
+}
+
+
+
+
+
+
+/* Summernote */
+
+.note-editor .note-toolbar {
+	background: #f0f0f1;
+	border-bottom: 1px solid #c2cad8;
+	-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /*Buttons from toolbar*/
+  
+  .summernote .btn-group, .popover-content .btn-group {
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  }
+  
+  .note-popover {
+	background: #f0f0f1!important;
+  }
+  
+  .summernote .btn, .note-btn {
+	color: rgba(0, 0, 0, .54)!important;
+	background-color: transparent!important;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+  }
+  
+  .summernote .dropdown-toggle:after {
+	vertical-align: middle;
+  }
+  
+  .note-editor.card {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 2px;
+  }
+  
+  /* Border of the Summernote textarea */
+  
+  .note-editor.note-frame {
+	border: 1px solid rgba(0, 0, 0, .14);
+  }
+  
+  /* Padding of the text in textarea */
+  
+  .note-editor.note-frame .note-editing-area .note-editable {
+	padding-top: 1rem;
+  }
+
+  .jobCreate .form-control {
+	 border: 1px solid #ced4da;
+  }
